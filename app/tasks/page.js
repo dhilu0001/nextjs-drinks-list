@@ -1,9 +1,13 @@
+import TaskList from '@/components/TaskList'
+import TaskFormCustom from '@/components/TaskFormCustom'
 import React from 'react'
+export const dynamic = 'force-dynamic'
 
 const TasksPage = () => {
   return (
-    <div>
-      <h1 className='text-7xl'>TasksPage</h1>
+    <div className='max-w-lg'>
+      <TaskFormCustom />
+      <TaskList />
     </div>
   )
 }

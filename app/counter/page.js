@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 
-const ClientPage = () => {
+const CounterPage = () => {
     const [count, setCount] = useState(0)
     return (
         <div>
@@ -12,4 +12,4 @@ const ClientPage = () => {
     )
 }
 
-export default ClientPage
+export default CounterPage

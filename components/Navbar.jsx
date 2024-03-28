@@ -3,7 +3,7 @@ import React from 'react'
 
 const links = [
     {
-        'href': '/client', label: 'client'
+        'href': '/counter', label: 'counter'
     },
     {
         'href': '/drinks', label: 'drinks'
